@@ -20,6 +20,10 @@
 
 Commit a removal of a file.
 
+rm passwordrm.txt
+git commit -m "DELETE: Remove a password file"
+git push -u origin master
+
 Delete a file from the repo.
 
 Delete a file from the entire repo history.
