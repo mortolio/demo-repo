@@ -1,4 +1,4 @@
-# demo-repo
+# Demo Repo - Hackathon
 
 ## References
 
