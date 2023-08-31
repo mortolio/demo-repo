@@ -12,6 +12,7 @@ or `fork` the repo to experiment with this code exersise yourself.
 
 - <https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository>
 - <https://rtyley.github.io/bfg-repo-cleaner/>
+- <https://buildvirtual.net/how-to-remove-or-delete-a-file-from-git/#:~:text=To%20delete%20a%20file>
 
 ## Share Links
 
@@ -62,6 +63,8 @@ git push --force -u origin main
 ```
 
 OR
+
+> Reference: <https://git-scm.com/docs/git-filter-branch>
 
 ```
 git filter-branch --tree-filter 'rm -f password2.txt' HEAD
