@@ -36,7 +36,7 @@ git rm password2.txt
 git rm --cached password2.txt
 ```
 
-Delete a file from the entire repo history.
+Delete a file from the entire repo history. (Just watch out for the gotcha that you will have to do this for branches as well.)
 
 ```
 git filter-repo -f --index-filter 'git rm --cached --ignore-unmatch password2.txt'
