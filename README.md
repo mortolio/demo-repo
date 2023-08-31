@@ -1,2 +1,6 @@
 # demo-repo
-This is demo repo for a hackathon.
+
+## References
+
+- <https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository>
+-
