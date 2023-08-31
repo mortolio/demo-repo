@@ -10,3 +10,8 @@
 - <https://learngitbranching.js.org/>
 - <https://www.git-tower.com/learn/git/faq/git-squash>
 - <https://www.git-tower.com/>
+
+## Some more Reading
+
+- <https://www.git-tower.com/blog/7-git-mistakes-a-developer-should-avoid/>
+- <https://about.gitlab.com/blog/2018/08/08/git-happens/>
