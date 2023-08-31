@@ -15,3 +15,11 @@
 
 - <https://www.git-tower.com/blog/7-git-mistakes-a-developer-should-avoid/>
 - <https://about.gitlab.com/blog/2018/08/08/git-happens/>
+
+## Commands
+
+Commit a removal of a file.
+
+Delete a file from the repo.
+
+Delete a file from the entire repo history.
