@@ -19,6 +19,8 @@
 
 ## Commands
 
+>Reference: <https://sentry.io/answers/delete-a-file-from-a-git-repository/>
+
 Commit a removal of a file.
 
 ```
@@ -27,6 +29,17 @@ git commit -m "DELETE: Remove a password file"
 git push -u origin master
 ```
 
-Delete a file from the repo.
+Delete a file from the repo. (.gitignore)
+
+```
+git rm password2.txt
+git rm --cached password2.txt
+```
 
 Delete a file from the entire repo history.
+
+```
+git filter-repo -f --index-filter 'git rm --cached --ignore-unmatch password2.txt'
+
+git push --force -u origin main
+```
