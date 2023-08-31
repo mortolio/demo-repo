@@ -11,6 +11,7 @@ or `fork` the repo to experiment with this code exersise yourself.
 ## References
 
 - <https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository>
+- <https://rtyley.github.io/bfg-repo-cleaner/>
 
 ## Share Links
 
@@ -28,6 +29,14 @@ or `fork` the repo to experiment with this code exersise yourself.
 ## Commands
 
 >Reference: <https://sentry.io/answers/delete-a-file-from-a-git-repository/>
+
+### Search for code in Github
+
+```
+https://github.com/search?q=secret&type=code
+```
+
+### Commands For Demo
 
 Commit a removal of a file.
 
@@ -48,6 +57,14 @@ Delete a file from the entire repo history. (Just watch out for the gotcha that 
 
 ```
 git filter-repo -f --index-filter 'git rm --cached --ignore-unmatch password2.txt'
+
+git push --force -u origin main
+```
+
+OR
+
+```
+git filter-branch --tree-filter 'rm -f password2.txt' HEAD
 
 git push --force -u origin main
 ```
