@@ -1,5 +1,13 @@
 # Demo Repo - Hackathon
 
+On your local machine, make a clone of the repo if you want to experiment on your local machine.
+
+```
+git clone git@github.com>:mortolio/demo-repo.git .
+```
+
+or `fork` the repo to experiment with this code exersise yourself.
+
 ## References
 
 - <https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository>
