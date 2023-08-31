@@ -62,7 +62,7 @@ git filter-repo -f --index-filter 'git rm --cached --ignore-unmatch password2.tx
 git push --force -u origin main
 ```
 
-OR
+OR -
 
 > Reference: <https://git-scm.com/docs/git-filter-branch>
 
